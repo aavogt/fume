@@ -1,5 +1,7 @@
 # fume hood fan control
 
+The ESP32C3 will decide how fast or how long to run the fan.
+
 ## TODO
 
 - AGS02MA
@@ -11,7 +13,9 @@
    - [ ] graph PPB
    - [ ] setpoint digits
    - [ ] RPM digits
-- [ ] XL4015 to 3 pin fan
+- XL4015 to 3 pin fan
   - [x] yellow tachometer wire GPIO interrupt (no PCNT available)
-  - [x] PID: LEDC changes the voltage at the trim pot voltage divider
-- [ ] EC11 to adjust PPB setpoint
+  - [x] PID: LEDC changes the voltage at (which part of?) the trim pot voltage divider
+- EC11 to adjust PPB setpoint or threshold
+  - [ ] driver
+  - [ ] decide what the button does
