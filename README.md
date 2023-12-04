@@ -12,6 +12,6 @@
    - [ ] setpoint digits
    - [ ] RPM digits
 - [ ] XL4015 to 3 pin fan
-  - [ ] yellow tachometer wire GPIO interrupt (no PCNT available)
-  - [ ] PID: LEDC changes the voltage at the trim pot voltage divider
+  - [x] yellow tachometer wire GPIO interrupt (no PCNT available)
+  - [x] PID: LEDC changes the voltage at the trim pot voltage divider
 - [ ] EC11 to adjust PPB setpoint
